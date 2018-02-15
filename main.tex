@@ -1,5 +1,4 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage[utf8]{inputenc}
 
 \usepackage{answers}
 \usepackage{setspace}
@@ -7,11 +6,54 @@
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{mathrsfs}
-\usepackage[margin=1in]{geometry} 
-\usepackage{amsmath,amsthm,amssymb}
-
 \usepackage{minted}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={5in, 10in}]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{newclude}
+\usepackage{parskip}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[hyphens]{url}
+\usepackage{xspace}
+\usepackage{textcomp}
+\usepackage{courier}
+\usepackage{titlesec}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{fancyvrb}
+\usepackage[titletoc,toc,page]{appendix}
+\usepackage[super,negative]{nth}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{ltablex}
+\usepackage{longtable}
+\usepackage{makecell}
 
+% Set chapter title size
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\Huge}
+
+% Line spacing
+\renewcommand{\baselinestretch}{1.1}
+
+% Footer spacing
+\addtolength{\skip\footins}{2pc plus 2pt}
+
+% Set assets folder
+\graphicspath{{assets/}}
+
+% Bibliography%
+
+% Clickable Table of Contents
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\C}{\mathbb{C}}
@@ -54,7 +96,7 @@ Course-Semester} %if necessary, replace with your course title
 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=3cm]{example}
+%\includegraphics[width=3cm]{example}
 \caption{Example figure}
 \label{fig:example}
 \end{figure}
