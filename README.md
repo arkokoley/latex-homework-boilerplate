@@ -3,6 +3,8 @@ LaTeX Homework Boilerplate
 A LaTeX boilerplate for academic homework and assignments.
 
 ## Building The Document
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Farkokoley%2Flatex-homework-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Farkokoley%2Flatex-homework-boilerplate?ref=badge_shield)
+
 
 **Compile to PDF**
 
@@ -22,3 +24,6 @@ Issues or new features can be reported via the GitHub issue tracker. Please make
 ## License
 
 LaTeX Homework Boilerplate is open-sourced software licensed under the [MIT license](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Farkokoley%2Flatex-homework-boilerplate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Farkokoley%2Flatex-homework-boilerplate?ref=badge_large)
